@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-Mapper.dtd"> 
+<mapper namespace="dao.VenderDao">
+ <cache
+eviction="FIFO"
+flushInterval="60000"
+size="512"
+readOnly="true"/>
+    <!--  select的
+    	id:要和dao里的方法名对应，
+    
+    	paramerType:参数只有一个，参数类型和paramerType对应，可以是基本数据类型 ，String，javaBean对象，map
+    							基本类型和Sring 用参数名获得  #{参数名称}
+    							JavaBean对象 用参数名.属性   可以迭代  及对象.属性.属性...#{属性}
+    							map 用参数名.key  可以迭代   及map.key.属性   #{key}
+    							
+    	resultType:返回值类型resultType为返回的全类名，此类为标准Javabean，此类的字段名要和数据库的字段名一致（忽略大小写）
+    							当方法的返回值为一个List时，所查询到的对象会被装配为这个List的泛型的对象，并构成一个List返回
+    							当方法的返回值为一个对象时，如果查到的数据只有一条则将这条数据装配为这个对象，并返回，如果查到多条则报错
+    							 或者 -->
+    							 
+    <!--  -->
+    <insert id="addOneVender" parameterType="model.Vender" >
+         <selectKey keyProperty="vender_Id" resultType="int" order="BEFORE">
+			select vender_SEQ.NEXTVAL from dual
+		</selectKey>
+		insert into vender values(
+		#{vender_Id},
+		#{vender_Code},
+		#{vender_Type},
+		#{vender_Name},
+		#{address},
+		#{telphone},
+		#{contacts},
+		#{product_License},
+		#{bussiness_Registration_No},
+		#{registered_Capital},
+		#{user_Id},
+		#{create_Time},	
+		#{zxbj},
+		#{remark}
+
+		)
+    </insert>
+    <update id="updateOneVender">
+        update vender set
+		vender_Code=#{vender_Code},
+		vender_Type=#{vender_Type},
+		vender_Name=#{vender_Name},
+		address=#{address},
+		telphone=#{telphone},
+		contacts=#{contacts},
+		product_License=#{product_License},
+		bussiness_Registration_No=#{bussiness_Registration_No},
+		registered_Capital=#{registered_Capital},
+		user_Id=#{user_Id},
+		create_Time=#{create_Time},	
+		zxbj=#{zxbj},
+		remark=#{remark}
+		
+		where vender_id=#{vender_Id}
+    </update>
+	<update id="deleteOneVender">
+	    update vender set zxbj='1' where vender_id=#{vender_Id}
+	    
+	</update>
+    <select id="getOneVender" parameterType="int" resultType="model.Vender">
+        select * from vender where vender_id=#{vender_Id}
+    </select>
+    
+    <select id="getCount" resultType="int">
+        select count(vender_id) from vender
+         <where>
+           <if test="vender.vender_Code!=''"> and vender_Code like '%'||#{vender.vender_Code}||'%'</if>
+           <if test="vender.vender_Name!=''">and vender_Name like '%'||#{vender.vender_Name}||'%'</if>
+			<if test="vender.vender_Type!=''">and vender_Type=#{vender.vender_Type}</if>  
+			<if test="vender.zxbj!=''"> and zxbj=#{vender.zxbj}</if>          
+        </where>
+        
+        
+    </select>
+    
+    <select id="getOnePage" resultType="model.Vender">
+        
+        	select * from 
+				(select rownum r, 
+  vender_Id,
+   vender_Code,
+    vender_Type,
+    vender_Name,
+    address,
+    telphone,
+    contacts,
+    product_License,
+    bussiness_Registration_No,
+    registered_Capital,
+    user_Id,
+    create_Time, 
+    zxbj,
+    remark from vender
+		  	where rownum&lt;=#{end}
+           <if test="vender.vender_Code!=''"> and vender_Code like '%'||#{vender.vender_Code}||'%'</if>
+           <if test="vender.vender_Name!=''">and vender_Name like '%'||#{vender.vender_Name}||'%'</if>
+			<if test="vender.vender_Type!=''">and vender_Type=#{vender.vender_Type}</if>  
+			<if test="vender.zxbj!=''"> and zxbj=#{vender.zxbj}</if>  )t where t.r &gt; #{start}        
+       		
+        
+    
+        
+    </select>
+    
+
+    
+
+    
+    
+</mapper>

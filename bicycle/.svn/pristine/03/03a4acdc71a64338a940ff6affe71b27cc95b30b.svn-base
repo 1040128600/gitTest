@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/public.css">
+</head>
+<body>
+<div class="public-header-warrp">
+	<div class="public-header">
+		<div class="content">
+			<div class="public-header-logo"><a href=""><i>LOGO</i>
+			<h3>aowin</h3></a></div>
+			<div class="public-header-admin fr">
+				<p class="admin-name">xxxxx，您好！</p>
+				<div class="public-header-fun fr">
+					<a href="" class="public-header-man">管理</a>
+					<a href="" class="public-header-loginout">安全退出</a>	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clearfix"></div>
+<!-- 内容展示 -->
+<div class="public-ifame mt20">
+	<div class="content">
+	<!-- 内容模块头 -->
+		<div class="public-ifame-header">
+			<ul>
+				<li class="ifame-item logo">
+					<div class="item-warrp">
+						<a href="#"><i>LOGO</i>
+							<h3 class="logo-title">自行车租赁管理系统</h3>
+							<p class="logo-des">beautiful voilet</p>
+						</a>
+					</div>
+				</li>
+				<li class="ifame-item"><div class="item-warrp"><span>注册时间：2015/11/21 21:14:01<br>VIP有效期：</span></div></li>
+				<li class="ifame-item"><div class="item-warrp" style="border:none"><span>网站浏览量：15451</span></div></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+		<!-- 左侧导航栏 -->
+		<div class="public-ifame-leftnav">
+			<div class="public-title-warrp">
+				<div class="public-ifame-title ">
+					<a href="">自行车租赁管理</a>
+				</div>
+			</div>
+			<ul class="left-nav-list">
+				<li class="public-ifame-item">
+					<a href="javascript:;">基本信息维护</a>
+					<div class="ifame-item-sub">
+						<ul>
+							<li class="active"><a href="" target="content">人员登记</a></li>
+							<li><a href="" target="content">人员列表</a></li>
+							<li><a href="" target="content">权限管理</a></li>
+							<li><a href="/bicycle/vender/venderManager.jsp" target="content">供应商维护</a></li>
+							<li><a href="" target="content">办卡</a></li>
+							<li><a href="/bicycle/station/stationManager.jsp" target="content">车点信息</a></li>
+							<li><a href="" target="content">车桩信息</a></li>
+							<li><a href="" target="content">车辆类型信息</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="public-ifame-item">
+					<a href="javascript:;">车辆业务</a>
+					<div class="ifame-item-sub">
+						<ul>
+							<li><a href="" target="content">车辆购入</a></li>
+							<li><a href="" target="content">新车入桩</a></li>
+							<li><a href="/bicycle/rentAndReturn/rentBike.jsp" target="content">车辆租出</a></li>
+							<li><a href="/bicycle/returnBike" target="content">车辆归还</a></li>
+							<li><a href="" target="content">车辆维修调出</a></li>
+							<li><a href="" target="content">车辆维修</a></li>
+							<li><a href="" target="content">车辆维修调入</a></li>
+							<li><a href="" target="content">车辆调出</a></li>
+							<li><a href="" target="content">车辆调入</a></li>
+							<li><a href="" target="content">车辆报废</a></li>
+                           
+						</ul>
+					</div>
+				</li>
+				<li class="public-ifame-item">
+					<a href="javascript:;">卡业务</a>
+					<div class="ifame-item-sub">
+						<ul>
+							<li><a href="" target="content">卡业务</a></li>
+                           
+						</ul>
+					</div>
+				</li>
+				<li class="public-ifame-item">
+					<a href="javascript:;">查询统计</a>
+					<div class="ifame-item-sub">
+						<ul>
+							
+                          <li><a href="" target="content">车点车辆信息联合查询</a></li>
+                          <li><a href="" target="content">月度/年度车辆费用统计</a></li>
+                          <li><a href="" target="content">车点使用率信息统计分析</a></li>
+                          <li><a href="" target="content">实时、卡费用统计</a></li>
+                          <li><a href="" target="content">月度/年度卡费用统计</a></li>
+						</ul>
+					</div>
+				</li>
+				
+			</ul>
+		</div>
+		<!-- 右侧内容展示部分 -->
+		<div class="public-ifame-content">
+		<iframe name="content" src="/bicycle/vender/venderManager.jsp" frameborder="0" id="mainframe" scrolling="yes" marginheight="0" marginwidth="0" width="100%" style="height: 700px;"></iframe>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script>
+$().ready(function(){
+	var item = $(".public-ifame-item");
+
+	for(var i=0; i < item.length; i++){
+		$(item[i]).on('click',function(){
+			$(".ifame-item-sub").hide();
+			if($(this.lastElementChild).css('display') == 'block'){
+				$(this.lastElementChild).hide()
+				$(".ifame-item-sub li").removeClass("active");
+			}else{
+				$(this.lastElementChild).show();
+				$(".ifame-item-sub li").on('click',function(){
+					$(".ifame-item-sub li").removeClass("active");
+					$(this).addClass("active");
+				});
+			}
+		});
+	}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+# For all other servers: Comment out the Log4J listener in web.xml to activate Log4J.
+log4j.rootLogger=DEGUB, CONSOLE
+
+
+# console
+log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender
+log4j.appender.Threshold=DEBUG
+log4j.appender.CONSOLE.Target=System.out
+log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout
+log4j.appender.CONSOLE.layout.ConversionPattern=[framework] %d - %c -%-4r [%t] %-5p %c %x - %m%n
+#log4j.appender.CONSOLE.layout.ConversionPattern=[start]%d{DATE}[DATE]%n%p[PRIORITY]%n%x[NDC]%n%t[THREAD] n%c[CATEGORY]%n%m[MESSAGE]%n%n
+
+log4j.logger.com.ibatis = DEBUG,CONSOLE 
+log4j.logger.com.ibatis.common.jdbc.SimpleDataSource = DEBUG  
+log4j.logger.com.ibatis.common.jdbc.ScriptRunner = DEBUG  
+log4j.logger.com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate = DEBUG  
+log4j.logger.java.sql.Connection = DEBUG  
+log4j.logger.java.sql.Statement = DEBUG  
+log4j.logger.java.sql.PreparedStatement = DEBUG 
+log4j.logger.java.sql.ResultSet = DEBUG  
