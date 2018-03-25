@@ -1,0 +1,152 @@
+Environment variables:
+  - #envTSLOGSHELLEXT8040=116567552
+  - =::=::\
+  - =C:=C:\Windows\System32
+  - =D:=D:\program\sonar\sonar-scanning-examples-master\sonarqube-scanner
+  - ALLUSERSPROFILE=C:\ProgramData
+  - APOLLO_HOME=D:\program\java program\apollo\apache-apollo-1.7.1
+  - APPDATA=C:\Users\luen\AppData\Roaming
+  - APR_ICONV_PATH=D:\program\java\svnServer\iconv
+  - CLASSPATH=.;D:\program\java\jdk1.8.0_151\lib\dt.jar;D:\program\java\jdk1.8.0_151\lib\tools.jar;D:\program\java\jdk1.8.0_151\lib;.;D:\program\java\jdk1.8.0_151\lib
+  - COMPUTERNAME=LUENPC
+  - ComSpec=C:\WINDOWS\system32\cmd.exe
+  - CommonProgramFiles=C:\Program Files\Common Files
+  - CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  - CommonProgramW6432=C:\Program Files\Common Files
+  - ERROR_CODE=0
+  - FP_NO_HOST_CHECK=NO
+  - HOMEDRIVE=C:
+  - HOMEPATH=\Users\luen
+  - JAVA_EXEC="D:\program\java\jdk1.8.0_151\bin\java.exe"
+  - JAVA_HOME=D:\program\java\jdk1.8.0_151
+  - JAVA_OPTS=-server -Xms512m -Xmx512m -Xss256k -XX:MetaspaceSize=128M -XX:MaxNewSize=256m -XX:MaxMetaspaceSize=256m
+  - JRE_HOME=D:\program\java\jdk1.8.0_151\jre;
+  - KMP_DUPLICATE_LIB_OK=TRUE
+  - LOCALAPPDATA=C:\Users\luen\AppData\Local
+  - LOGONSERVER=\\LUENPC
+  - MKL_SERIAL=YES
+  - NODE_PATH=C:\Users\luen\AppData\Roaming\npm\node_modules
+  - NUMBER_OF_PROCESSORS=4
+  - ORACLE_SID=orcl
+  - OS=Windows_NT
+  - PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  - PERL5LIB=D:\oracle\product\10.1.0\db_1\sysman\admin\scripts;D:\oracle\product\10.1.0\db_1\perl\site\5.6.1\lib;D:\oracle\product\10.1.0\db_1\perl\site\5.6.1;D:\oracle\product\10.1.0\db_1\perl\5.6.1\lib\MSWin32-x86;D:\oracle\product\10.1.0\db_1\perl\lib\5.6.1;D:\oracle\product\10.1.0\db_1\perl\lib\5.6.1\MSWin32-x86;
+  - PROCESSOR_ARCHITECTURE=AMD64
+  - PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+  - PROCESSOR_LEVEL=6
+  - PROCESSOR_REVISION=3c03
+  - PROJECT_HOME=D:\program\sonar\sonar-scanning-examples-master\sonarqube-scanner
+  - PROMPT=$P$G
+  - PSModulePath=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;D:\program\sql sever2014b\120\Tools\PowerShell\Modules\
+  - PUBLIC=C:\Users\Public
+  - Path=D:\app\luen\product\11.2.0\dbhome_1\bin;D:\program\java\oraclePath\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32；C:\WINDOWS；C:\WINDOWS\System32\Wbem；%Path1%;%P;th1%;D:\program\java\jdk1.8.0_151\bin;D:\program\java\svnServer\bin;D:\program\java\svnClient\bin;C:\Program Files\dotnet\;D:\program\nodejs;D:\program\putty\;D:\program\nodejs\;D:\program\git\Git\cmd;C:\Users\luen\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\luen\AppData\Roaming\npm
+  - Path1=D:\program\java\oracle\product\11.2.0\dbhome_1\bin;D:\program\java\oracle\product\11.2.0\dbhome_2\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\program\bin\win32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;D:\program\sql sever2014a\Client SDK\ODBC\110\Tools\Binn\;D:\program\sql sever2014b\120\Tools\Binn\;D:\program\sql sever2014a\120\Tools\Binn\;D:\program\sql sever2014a\120\DTS\Binn\;D:\program\sql sever2014b\120\Tools\Binn\ManagementStudio\;D:\program\sql sever2014b\120\DTS\Binn\;D:\program\java program\Tomcat\bin;D:\program\java\jdk1.8.0_151\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\program\java program\Android\android-sdk;D:\program\java program\apollo\apache-apollo-1.7.1\bin\mybroker\bin
+  - ProgramData=C:\ProgramData
+  - ProgramFiles=C:\Program Files
+  - ProgramFiles(x86)=C:\Program Files (x86)
+  - ProgramW6432=C:\Program Files
+  - SESSIONNAME=Console
+  - SONAR_SCANNER_HOME=D:\program\sonar\sonar-scanner-2.8\bin\..
+  - SystemDrive=C:
+  - SystemRoot=C:\WINDOWS
+  - TEMP=C:\Users\luen\AppData\Local\Temp
+  - TMP=C:\Users\luen\AppData\Local\Temp
+  - USERDOMAIN=luenpc
+  - USERDOMAIN_ROAMINGPROFILE=luenpc
+  - USERNAME=luen
+  - USERPROFILE=C:\Users\luen
+  - lib=C:\Program Files\SQLXML 4.0\bin\
+  - windir=C:\WINDOWS
+System properties:
+  - awt.toolkit=sun.awt.windows.WToolkit
+  - file.encoding=GBK
+  - file.encoding.pkg=sun.io
+  - file.separator=\
+  - java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.awt.windows.WPrinterJob
+  - java.class.path=D:\program\sonar\sonar-scanner-2.8\bin\..\lib\sonar-scanner-cli-2.8.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=D:\program\java\jdk1.8.0_151\jre\lib\endorsed
+  - java.ext.dirs=D:\program\java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+  - java.home=D:\program\java\jdk1.8.0_151\jre
+  - java.io.tmpdir=C:\Users\luen\AppData\Local\Temp\
+  - java.library.path=D:\program\java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\luen\product\11.2.0\dbhome_1\bin;D:\program\java\oraclePath\product\11.2.0\dbhome_1\bin;C:\WINDOWS\system32；C:\WINDOWS；C:\WINDOWS\System32\Wbem；%Path1%;%P;th1%;D:\program\java\jdk1.8.0_151\bin;D:\program\java\svnServer\bin;D:\program\java\svnClient\bin;C:\Program Files\dotnet\;D:\program\nodejs;D:\program\putty\;D:\program\nodejs\;D:\program\git\Git\cmd;C:\Users\luen\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\luen\AppData\Roaming\npm;.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_151-b12
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_151
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.151-b12
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Windows 10
+  - os.version=10.0
+  - path.separator=;
+  - project.home=D:\program\sonar\sonar-scanning-examples-master\sonarqube-scanner
+  - scanner.home=D:\program\sonar\sonar-scanner-2.8\bin\..
+  - sun.arch.data.model=64
+  - sun.boot.class.path=D:\program\java\jdk1.8.0_151\jre\lib\resources.jar;D:\program\java\jdk1.8.0_151\jre\lib\rt.jar;D:\program\java\jdk1.8.0_151\jre\lib\sunrsasign.jar;D:\program\java\jdk1.8.0_151\jre\lib\jsse.jar;D:\program\java\jdk1.8.0_151\jre\lib\jce.jar;D:\program\java\jdk1.8.0_151\jre\lib\charsets.jar;D:\program\java\jdk1.8.0_151\jre\lib\jfr.jar;D:\program\java\jdk1.8.0_151\jre\classes
+  - sun.boot.library.path=D:\program\java\jdk1.8.0_151\jre\bin
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=amd64
+  - sun.desktop=windows
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -X
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=GBK
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=
+  - sun.stderr.encoding=ms936
+  - sun.stdout.encoding=ms936
+  - user.country=CN
+  - user.dir=D:\program\sonar\sonar-scanning-examples-master\sonarqube-scanner
+  - user.home=C:\Users\luen
+  - user.language=zh
+  - user.name=luen
+  - user.script=
+  - user.timezone=Asia/Shanghai
+  - user.variant=
+SonarQube plugins:
+  - SonarC# 6.5.0.3766 (csharp)
+  - SonarPython 1.8.0.1496 (python)
+  - SonarJava 4.15.0.12310 (java)
+  - Chinese Pack 1.19 (l10nzh)
+  - Flex 2.3 (flex)
+  - SonarQube :: Plugins :: SCM :: Git 1.3.0.869 (scmgit)
+  - SonarXML 1.4.3.1027 (xml)
+  - SonarPHP 2.11.0.2485 (php)
+  - SonarTS 1.1.0.1079 (typescript)
+  - SonarQube :: Plugins :: SCM :: SVN 1.6.0.860 (scmsvn)
+  - SonarJS 3.2.0.5506 (javascript)
+Global properties:
+  - sonar.core.id=AWJbJtYuDrKV5BTGJ7Po
+  - sonar.core.startTime=2018-03-25T14:01:12+0800
+  - sonar.scm.disabled=true
+Settings for module: org.sonarqube:sonarqube-scanner
+  - sonar.cobol.copy.directories=copybooks
+  - sonar.cobol.copy.suffixes=cpy
+  - sonar.cobol.file.suffixes=cbl,cpy
+  - sonar.flex.cobertura.reportPath=coverage-report/coverage-cobertua-flex.xml
+  - sonar.host.url=http://localhost:9100
+  - sonar.pli.marginLeft=2
+  - sonar.pli.marginRight=0
+  - sonar.projectBaseDir=D:\program\sonar\sonar-scanning-examples-master\sonarqube-scanner
+  - sonar.projectKey=org.sonarqube:sonarqube-scanner
+  - sonar.projectName=Example of SonarQube Scanner Usage
+  - sonar.projectVersion=1.0
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=src,copybooks
+  - sonar.verbose=true
+  - sonar.working.directory=D:\program\sonar\sonar-scanning-examples-master\sonarqube-scanner\.sonar

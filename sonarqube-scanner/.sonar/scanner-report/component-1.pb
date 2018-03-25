@@ -1,0 +1,1 @@
+"Example of SonarQube Scanner Usage :#3J1.0Rorg.sonarqube:sonarqube-scanner
